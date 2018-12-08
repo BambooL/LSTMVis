@@ -41,7 +41,7 @@ The script will automatically save the trained model in a .t7 file after each ep
 
 An examplary call to the script is:
 
-    th main.th -data_file paren/train.hdf5 -val_data_file paren/val.hdf5 -epochs 30 -gpuid 0
+    th main.lua -data_file paren/train.hdf5 -val_data_file paren/val.hdf5 -epochs 30 -gpuid 0
     
 ### Generation of Evaluation Files
 
